@@ -7,11 +7,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+
+class ViewController: UIViewController {
+    //Part 8: This is where I want you to declare 3 string variables
+    
+    var str1 = "My dog"
+    var str2 = " ate her breakfast."
+    var str3 = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        var str3 = str1 + str2
+        
+        
     }
 
     @IBAction func pressMeButtonPressed(_ sender: Any)
@@ -23,6 +35,18 @@ class ViewController: UIViewController {
         
     }
     
+    
+    @IBAction func secondButtonPressed(_ sender: Any)
+    {
+    
+    print(str3)
+        
+    }
+    
+    
+    
 
+    
+    
 }
 
