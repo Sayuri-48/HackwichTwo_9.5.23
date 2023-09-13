@@ -8,12 +8,12 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+    
     @IBOutlet weak var firstLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -23,6 +23,6 @@ class secondViewController: UIViewController {
         self.view.backgroundColor = UIColor.black
         firstLabel.text = "Hello World"
         firstLabel.textColor = UIColor.white
+        
     }
-
 }
