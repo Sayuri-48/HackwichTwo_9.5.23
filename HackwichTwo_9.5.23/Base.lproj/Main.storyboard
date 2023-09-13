@@ -105,16 +105,6 @@
             </objects>
             <point key="canvasLocation" x="930.53435114503816" y="-27.464788732394368"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ZYD-dy-bIK">
-            <objects>
-                <viewController id="lSh-47-SUs" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="wr9-fG-Ksg"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TJ8-Sn-lP4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="931" y="656"/>
-        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
