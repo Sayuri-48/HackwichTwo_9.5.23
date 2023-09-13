@@ -22,7 +22,7 @@ class secondViewController: UIViewController {
         //When the button is pressed the background color of the view is set to blue
         self.view.backgroundColor = UIColor.black
         firstLabel.text = "Hello World"
-        firstLabel.textColor = UIColor.white
+        firstLabel.textColor = UIColor.systemYellow
         
     }
 }
