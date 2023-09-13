@@ -23,7 +23,7 @@ class secondViewController: UIViewController {
         self.view.backgroundColor = UIColor.black
         
         firstLabel.text = "Hungry!"
-        firstLabel.textColor = UIColor.systemYellow
+        firstLabel.textColor = UIColor.white
         
     }
 }
