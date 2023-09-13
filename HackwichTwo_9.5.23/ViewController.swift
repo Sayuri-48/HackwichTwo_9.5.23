@@ -16,13 +16,11 @@ class ViewController: UIViewController {
     var str2 = " ate her breakfast."
     var str3 = ""
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var str3 = str1 + str2
-        
+        str3 = str1 + str2
         
     }
 
@@ -42,11 +40,6 @@ class ViewController: UIViewController {
     print(str3)
         
     }
-    
-    
-    
-
-    
     
 }
 
